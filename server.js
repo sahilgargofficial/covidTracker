@@ -5,4 +5,4 @@ app.use(express.static(__dirname + '/dist/covidtracker'))
 app.get('/*' , (req , res )=>{
     res.sendFile(path.join(__dirname + '/dist/covidtracker/index.html'));
 });
-app.listen(800)
+app.listen(8080)
