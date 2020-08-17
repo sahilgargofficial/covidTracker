@@ -19,7 +19,6 @@
               <li class="nav-item"><a class="nav-link" href="#footer">CONTACT</a></li>
             </ul>
           </div>
-
         </nav>
       </div>
     </div>
@@ -99,15 +98,15 @@
     <div class="row">
       <div class="col chart-wrapper">
         <canvas *ngIf="global" baseChart
-          [chartType]="lineChartType"
-          [datasets]="lineChartData"
-          [labels]="lineChartLabels"
+                [chartType]="lineChartType"
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
         >
         </canvas>
         <canvas *ngIf="!global" baseChart
-          [chartType]="barChartType"
-          [datasets]="barChartData"
-          [labels]="barChartLabels"
+                [chartType]="barChartType"
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
         >
         </canvas>
       </div>
