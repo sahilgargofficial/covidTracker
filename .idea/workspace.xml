@@ -22,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -71,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597663929242</updated>
       <workItem from="1597663930320" duration="19000" />
-      <workItem from="1597664101920" duration="6292000" />
+      <workItem from="1597664101920" duration="7354000" />
     </task>
     <servers />
   </component>
