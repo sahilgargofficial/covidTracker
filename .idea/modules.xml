@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/angular-covidtracker-master.iml" filepath="$PROJECT_DIR$/.idea/angular-covidtracker-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/covidtracker.iml" filepath="$PROJECT_DIR$/.idea/covidtracker.iml" />
     </modules>
   </component>
 </project>
