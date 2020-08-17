@@ -5,4 +5,6 @@ app.use(express.static(__dirname + '/dist/covidtracker'))
 app.get('/*' , (req , res )=>{
     res.sendFile(path.join(__dirname + '/dist/covidtracker/index.html'));
 });
-app.listen(process.env.PORT|8000)
+app.listen(process.env.PORT , () => {
+    console.log("server started")
+})
